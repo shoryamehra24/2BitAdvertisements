@@ -5,6 +5,9 @@ body {
 span{
   color: #fff;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /* Headings */
 .big-heading {
