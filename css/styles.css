@@ -1,0 +1,284 @@
+body {
+  text-align: center;
+}
+
+span{
+  color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  padding-bottom: 1.2rem;
+  padding-right: 4rem
+}
+
+.title-header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* Title Section */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+.title-img{
+margin-left: 5%;
+}
+
+/* Navbar */
+.nav-img {
+  width: 50%;
+}
+
+
+.nav-item{
+  padding-left: 1.1rem;
+  padding-right: 1.1rem
+}
+
+.nav-link
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+
+/* TEAM */
+#Team{
+  padding-top: 7% ;
+  padding-bottom: 7%;
+  background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+.carousel-item{
+  padding: 4% 15%
+}
+
+
+.mtt-intro{
+  color: #fff;
+  font-family: "Josefin Sans";
+  font-weight: 900;
+  font-size: 3.2rem;
+}
+
+.mtt-img{
+  padding-bottom: 2%;
+}
+
+.mtt-headlg{
+  font-family: "Josefin Sans";
+  color: #fff;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.mtt-headsm{
+  font-family: "Josefin Sans";
+  color: #fff;
+  font-weight: 300;
+}
+
+
+/* SERVICE */
+
+
+#Services{
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  padding-top: 7% ;
+  padding-bottom: 7%;
+  color: #fff;
+}
+
+
+.service-text{
+  text-align: left;
+  font-family: "Josefin Sans"
+}
+
+.service-para{
+  font-size: 1.6rem;
+  text-align: left;
+  font-weight: 300;
+  line-height: 2;
+}
+
+
+.service-img{
+  width:65%;
+  padding-right: 2rem;
+}
+
+.service-head{
+font-weight: 700;
+  text-align: left;
+  font-size: 3.5rem;
+  line-height: 2;
+}
+
+
+.container-fluid2{
+    padding: 3% 15% 3%;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+color: #fff;
+padding: 4% 4% 5%;
+}
+
+.test-head{
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.test-para{
+  font-family: "Nunito Sans";
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.test-link:hover{
+  color:gold;
+}
+
+.test-link{
+  color:#fff;
+  text-decoration: underline;
+}
+
+.test-img{
+  width: 14%;
+  padding: 2% 2% 0 2%;
+}
+
+.nars{
+  padding-top: 4%;
+}
+
+.senatus{
+  padding-top: 4.2%;
+}
+
+.buland{
+  padding-top: 5%;
+}
+
+
+/* CALL TO ACTION */
+
+#cta{
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  padding: 4% 4% 1% 4%;
+  color: #fff;
+
+}
+
+.cta-head{
+  padding: 4% 2% 3% 2%;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 2.6rem;
+}
+
+.cta-para{
+  font-family: "Nunito Sans";
+  padding-bottom: 0.8%;
+}
+
+.cta-para2{
+  font-family: "Nunito Sans";
+  padding-top: 2.5%;
+
+
+}
+
+.icon{
+  padding: 1% 1% 0;
+  margin-bottom: 4%;
+  color: #fff;
+}
+
+.icon:hover{
+  color: grey;
+}
+
+
+.footer-para{
+font-family: "Josefin Sans";
+font-weight: 300;
+text-align: center;
+margin-bottom: 0;
+color: #fff;
+}
+
+.footer-link{
+color: #fff
+}
+
+.footer-link:hover{
+  color: gold;
+}
+
+
+
+/* ID SELECTORS */
+#title {
+  color: #fff;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+
+@media (max-width:1255px) {
+  #title{
+    text-align: center;
+  }
+.title-img{
+  position: static;
+}
+.service-head{
+  text-align: center;
+}
+
+.service-para{
+  text-align: center;
+}
+
+}
+
+
+
+::-webkit-scrollbar{
+  width: 16px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #facc6b;
+background-image: linear-gradient(315deg, #facc6b 0%, #fabc3c 74%);
+border-radius: 5px;
+}
+
+::-webkit-scrollbar-track-piece{
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
